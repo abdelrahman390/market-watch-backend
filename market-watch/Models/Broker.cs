@@ -1,8 +1,7 @@
-﻿using market_watch.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace market_watch;
+namespace market_watch.Models;
 
 public partial class Broker
 {

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using market_watch.Models;
 using Microsoft.EntityFrameworkCore;
+using market_watch.Models;
 
 namespace market_watch.Data;
+
 
 public partial class MarketWatchTrainingContext : DbContext
 {
@@ -16,11 +17,13 @@ public partial class MarketWatchTrainingContext : DbContext
     {
     }
 
+    public virtual DbSet<AddCompaniesRequest> AddCompaniesRequests { get; set; }
+
     public virtual DbSet<AuditLog> AuditLogs { get; set; }
 
     public virtual DbSet<Broker> Brokers { get; set; }
 
-    public virtual DbSet<Companies> Companies { get; set; }
+    public virtual DbSet<Company> Companies { get; set; }
 
     public virtual DbSet<DailyPrice> DailyPrices { get; set; }
 
@@ -40,10 +43,28 @@ public partial class MarketWatchTrainingContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-8DTTOUJ\\SQLEXPRESS;Initial Catalog=MarketWatchTraining;Integrated Security=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-8DTTOUJ\\SQLEXPRESS;Database=MarketWatchTraining;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<AddCompaniesRequest>(entity =>
+        {
+            entity.HasKey(e => e.RequistId).HasName("PK_AddComaniesRequists");
+
+            entity.Property(e => e.CompanyName).HasMaxLength(250);
+            entity.Property(e => e.FaceValue).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.IsActive).HasDefaultValue(true);
+            entity.Property(e => e.Reason).HasMaxLength(250);
+            entity.Property(e => e.Status)
+                .HasMaxLength(10)
+                .IsFixedLength();
+            entity.Property(e => e.Symbol).HasMaxLength(20);
+
+            entity.HasOne(d => d.User).WithMany(p => p.AddCompaniesRequests)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK_AddComaniesRequists_Users");
+        });
+
         modelBuilder.Entity<AuditLog>(entity =>
         {
             entity.HasKey(e => e.LogId).HasName("PK__AuditLog__5E54864841A2B3AA");
@@ -59,7 +80,7 @@ public partial class MarketWatchTrainingContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.AuditLogs)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK_LogUser");
+                .HasConstraintName("FK_AuditLogs_Users");
         });
 
         modelBuilder.Entity<Broker>(entity =>
@@ -73,7 +94,7 @@ public partial class MarketWatchTrainingContext : DbContext
             entity.Property(e => e.Phone).HasMaxLength(30);
         });
 
-        modelBuilder.Entity<Companies>(entity =>
+        modelBuilder.Entity<Company>(entity =>
         {
             entity.HasKey(e => e.CompanyId).HasName("PK__Companie__2D971CAC0345FD80");
 
@@ -147,10 +168,6 @@ public partial class MarketWatchTrainingContext : DbContext
             entity.HasOne(d => d.Company).WithMany(p => p.News)
                 .HasForeignKey(d => d.CompanyId)
                 .HasConstraintName("FK_NewsCompany");
-
-            entity.HasOne(d => d.CreatedByNavigation).WithMany(p => p.News)
-                .HasForeignKey(d => d.CreatedBy)
-                .HasConstraintName("FK_NewsUser");
         });
 
         modelBuilder.Entity<Order>(entity =>
@@ -225,12 +242,13 @@ public partial class MarketWatchTrainingContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CC4C1CA4C949");
-
             entity.Property(e => e.Email).HasMaxLength(200);
             entity.Property(e => e.FullName).HasMaxLength(200);
             entity.Property(e => e.IsActive).HasDefaultValue(true);
-            entity.Property(e => e.PasswordHash).HasMaxLength(300);
+            entity.Property(e => e.PasswordHash).HasMaxLength(32);
+            entity.Property(e => e.Salt)
+                .HasMaxLength(16)
+                .HasColumnName("salt");
             entity.Property(e => e.UserName).HasMaxLength(100);
             entity.Property(e => e.UserRole).HasMaxLength(50);
         });

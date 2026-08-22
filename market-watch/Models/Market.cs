@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace market_watch;
+namespace market_watch.Models;
 
 public partial class Market
 {
@@ -11,5 +11,5 @@ public partial class Market
 
     public bool IsActive { get; set; }
 
-    public virtual ICollection<Companies> Companies { get; set; } = new List<Companies>();
+    public virtual ICollection<Company> Companies { get; set; } = new List<Company>();
 }

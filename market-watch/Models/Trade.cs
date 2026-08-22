@@ -27,7 +27,7 @@ public partial class Trade
 
     public virtual Broker? Broker { get; set; }
 
-    public virtual Companies? Company { get; set; }
+    public virtual Company? Company { get; set; }
 
     public virtual Investor? Investor { get; set; }
 

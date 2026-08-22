@@ -1,11 +1,14 @@
-﻿using market_watch.Models;
+﻿using market_watch.Data;
+using market_watch.Models;
+using market_watch.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System.Data;
-using market_watch.Data;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using System.ComponentModel.Design;
+using System.Data;
+using System.Security.Claims;
 
 namespace market_watch.Controllers
 {
@@ -15,23 +18,30 @@ namespace market_watch.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly MarketWatchTrainingContext _dbContext;
-        public TradeController(IConfiguration configuration, MarketWatchTrainingContext dbContext)
+        private readonly AuditLogsService _AuditLogsService;
+
+        public TradeController(IConfiguration configuration, MarketWatchTrainingContext dbContext, AuditLogsService auditLogsService)
         {
             _configuration = configuration;
             _dbContext = dbContext;
+            _AuditLogsService = auditLogsService;
         }
 
+        [Authorize]
         [HttpGet("getTradesAdo/{companyId}")]
         public IActionResult getResultsAdo(int companyId)
         {
-            Console.WriteLine("TradeController was called!");
-            Console.WriteLine($"Company ID: {companyId}");
+            //Console.WriteLine("TradeController was called!");
+            //Console.WriteLine($"Company ID: {companyId}");
 
             string connectionString =
                 _configuration.GetConnectionString("DefaultConnection")!;
 
             try
             {
+                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+                var userIpAdress = HttpContext.Connection.RemoteIpAddress?.ToString();
+
                 using SqlConnection connection =
                     new SqlConnection(connectionString);
 
@@ -67,29 +77,9 @@ namespace market_watch.Controllers
                     };
 
                     trades.Add(tempTrade);
-
-                    //Console.WriteLine(
-                    //    $"TradeId: {reader["TradeId"]}"
-                    //);
-
-                    //Console.WriteLine(
-                    //    $"OrderId: {reader["OrderId"]}"
-                    //);
-
-                    //Console.WriteLine(
-                    //    $"Quantity: {reader["Quantity"]}"
-                    //);
-
-                    //Console.WriteLine(
-                    //    $"Price: {reader["Price"]}"
-                    //);
-
-                    //Console.WriteLine(
-                    //    $"TotalValue: {reader["TotalValue"]}"
-                    //);
-
-                    //Console.WriteLine("------------------------");
                 }
+
+                _AuditLogsService.Log(int.Parse(userIdClaim.Value), "getTradesAdo/{companyId}", "Trades", DateTime.Now, userIpAdress);
 
                 return Ok(trades);
             }
@@ -104,13 +94,19 @@ namespace market_watch.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet("getTrades")]
         public IActionResult getResultsEntity(int companyId)
         {
 
             try
             {
+                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+                var userIpAdress = HttpContext.Connection.RemoteIpAddress?.ToString();
+
                 List<Trade> trades = _dbContext.Trades.Where(t => t.CompanyId == companyId).ToList();
+
+                _AuditLogsService.Log(int.Parse(userIdClaim.Value), "getTrades", "Trades", DateTime.Now, userIpAdress);
 
                 return Ok(trades);
 

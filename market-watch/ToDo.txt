@@ -1,0 +1,12 @@
+
+
+
+
+Add unit testing;
+
+
+To ask:
+in "AddCompaniesRequestController" in "approveCompanyRequist" api it create new row and Update row in 
+"approveCompanyRequists" table what to write in AudirLog.
+
+in "approveCompanyRequist" if the user not authorithed to do this the log will not be saved, is that correct?

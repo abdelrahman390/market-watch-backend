@@ -25,7 +25,7 @@ public partial class Order
 
     public virtual Broker Broker { get; set; } = null!;
 
-    public virtual Companies Company { get; set; } = null!;
+    public virtual Company Company { get; set; } = null!;
 
     public virtual Investor Investor { get; set; } = null!;
 

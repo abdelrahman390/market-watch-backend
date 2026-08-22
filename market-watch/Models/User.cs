@@ -13,13 +13,15 @@ public partial class User
 
     public string? Email { get; set; }
 
-    public string? PasswordHash { get; set; }
+    public byte[]? PasswordHash { get; set; }
+
+    public byte[]? Salt { get; set; }
 
     public string? UserRole { get; set; }
 
     public bool? IsActive { get; set; }
 
-    public virtual ICollection<AuditLog> AuditLogs { get; set; } = new List<AuditLog>();
+    public virtual ICollection<AddCompaniesRequest> AddCompaniesRequests { get; set; } = new List<AddCompaniesRequest>();
 
-    public virtual ICollection<News> News { get; set; } = new List<News>();
+    public virtual ICollection<AuditLog> AuditLogs { get; set; } = new List<AuditLog>();
 }

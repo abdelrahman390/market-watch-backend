@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace market_watch;
+namespace market_watch.Models;
 
 public partial class DailyPrice
 {
@@ -23,5 +23,5 @@ public partial class DailyPrice
 
     public decimal? ValueTraded { get; set; }
 
-    public virtual Companies? Company { get; set; }
+    public virtual Company? Company { get; set; }
 }

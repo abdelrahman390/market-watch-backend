@@ -1,8 +1,55 @@
 [
   {
+    "ContainingType": "market_watch.Controllers.AddCompaniesRequestController",
+    "Method": "approveCompanyRequist",
+    "RelativePath": "AddCompaniesRequest/approveCompanyRequist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RequistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "market_watch.Controllers.AddCompaniesRequestController",
+    "Method": "rejectCompanyRequist",
+    "RelativePath": "AddCompaniesRequest/rejectCompanyRequist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RequistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Reason",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "market_watch.Controllers.AuditLogController",
+    "Method": "getAuditLogs",
+    "RelativePath": "AuditLog/getAuditLogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "market_watch.Controllers.CompanyController",
     "Method": "addCompany",
-    "RelativePath": "addCompany",
+    "RelativePath": "Company/addCompany",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,6 +65,16 @@
         "IsRequired": false
       },
       {
+        "Name": "SectorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MarketId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "FaceValue",
         "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
@@ -26,14 +83,122 @@
         "Name": "ListedDate",
         "Type": "System.DateOnly",
         "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "market_watch.Controllers.CompanyController",
-    "Method": "getComanies",
-    "RelativePath": "getComanies",
+    "Method": "getCompanies",
+    "RelativePath": "Company/getCompanies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "market_watch.Controllers.CompanyController",
+    "Method": "searchForCompany",
+    "RelativePath": "Company/searchForCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Symbol",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "market_watch.Controllers.MarketController",
+    "Method": "getResultsEntity",
+    "RelativePath": "Market/getMarkets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "market_watch.Controllers.RegisterController",
+    "Method": "login",
+    "RelativePath": "Register/login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "market_watch.Controllers.RegisterController",
+    "Method": "register",
+    "RelativePath": "Register/register",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userRole",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "market_watch.Controllers.SectorController",
+    "Method": "getResultsEntity",
+    "RelativePath": "Sector/getSectors",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -71,26 +236,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "market_watch.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[market_watch.WeatherForecast, market-watch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

@@ -1,0 +1,3 @@
+
+
+dotnet ef dbcontext scaffold "Server=DESKTOP-8DTTOUJ\SQLEXPRESS;Database=MarketWatchTraining;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --force

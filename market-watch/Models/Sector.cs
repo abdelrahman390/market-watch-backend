@@ -11,5 +11,5 @@ public partial class Sector
 
     public bool IsActive { get; set; }
 
-    public virtual ICollection<Companies> Companies { get; set; } = new List<Companies>();
+    public virtual ICollection<Company> Companies { get; set; } = new List<Company>();
 }

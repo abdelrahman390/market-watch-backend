@@ -17,7 +17,5 @@ public partial class News
 
     public int? CreatedBy { get; set; }
 
-    public virtual Companies? Company { get; set; }
-
-    public virtual User? CreatedByNavigation { get; set; }
+    public virtual Company? Company { get; set; }
 }
