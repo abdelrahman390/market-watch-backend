@@ -91,8 +91,8 @@ namespace market_watch.Controllers
                 Console.WriteLine($"UniqSymbol: {UniqSymbol}");
                 Console.WriteLine($"anyEmpty: {anyEmpty}");
                 Console.WriteLine($"validDate: {validDate}");
-                Console.WriteLine($"validSector: {validSector}");
-                Console.WriteLine($"validMarket: {validMarket}");
+                Console.WriteLine($"validSector: {validSector} - {SectorId}");
+                Console.WriteLine($"validMarket: {validMarket} - {MarketId}");
 
 
                 if (UniqSymbol && anyEmpty && validDate && validSector && validMarket)
@@ -157,7 +157,7 @@ namespace market_watch.Controllers
 
         [Authorize]
         [HttpGet("searchForCompany")]
-        public IActionResult searchForCompany(string? Symbol, string? CompanyName)
+        public IActionResult SearchForCompany(string? Symbol, string? CompanyName)
         {
             try
             {

@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/AddCompaniesRequest": {
+      "get": {
+        "tags": [
+          "AddCompaniesRequest"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/AddCompaniesRequest/approveCompanyRequist": {
       "post": {
         "tags": [

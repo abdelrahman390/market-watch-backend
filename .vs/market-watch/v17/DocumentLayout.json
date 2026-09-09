@@ -1,34 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\",
+  "WorkspaceRootPath": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internsheps\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internsheps\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\services\\auditlogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\services\\auditlogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\sector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\sector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\investor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\investor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\data\\marketwatchtrainingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\data\\marketwatchtrainingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\addcompaniesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\addcompaniesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internsheps\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internsheps\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\auditlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\controllers\\auditlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internsheps\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\addcompaniesrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\addcompaniesrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\controllers\\addcompaniesrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internsheps\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\auditlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\controllers\\auditlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internsheps\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|e:\\programming\\internships - current or completed\\fra 2026\\projs\\market watch project\\backend .net\\market-watch-backend\\market-watch\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77A741A-5B9B-4825-9094-FC65CF656FC1}|market-watch\\market-watch.csproj|solutionrelative:market-watch\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,29 +82,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "ToDo.txt",
-              "DocumentMoniker": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\ToDo.txt",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\ToDo.txt",
               "RelativeDocumentMoniker": "market-watch\\ToDo.txt",
-              "ToolTip": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\ToDo.txt",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\ToDo.txt",
               "RelativeToolTip": "market-watch\\ToDo.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2026-08-17T11:41:48.077Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -79,82 +118,213 @@
               "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompanyController.cs",
-              "DocumentMoniker": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\CompanyController.cs",
-              "RelativeDocumentMoniker": "market-watch\\Controllers\\CompanyController.cs",
-              "ToolTip": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\CompanyController.cs",
-              "RelativeToolTip": "market-watch\\Controllers\\CompanyController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Trade.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Trade.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\Trade.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Trade.cs",
+              "RelativeToolTip": "market-watch\\Models\\Trade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T09:34:30.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T09:43:48.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sector.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Sector.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\Sector.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Sector.cs",
+              "RelativeToolTip": "market-watch\\Models\\Sector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:43:44.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\Order.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Order.cs",
+              "RelativeToolTip": "market-watch\\Models\\Order.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:42:36.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "News.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\News.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\News.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\News.cs",
+              "RelativeToolTip": "market-watch\\Models\\News.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:42:02.627Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuditLog.cs",
-              "DocumentMoniker": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\AuditLog.cs",
-              "RelativeDocumentMoniker": "market-watch\\Models\\AuditLog.cs",
-              "ToolTip": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\AuditLog.cs",
-              "RelativeToolTip": "market-watch\\Models\\AuditLog.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "market-watch\\Services\\JwtService.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Services\\JwtService.cs",
+              "RelativeToolTip": "market-watch\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T09:34:09.092Z",
+              "WhenOpened": "2026-08-18T08:58:37.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\appsettings.json",
+              "RelativeDocumentMoniker": "market-watch\\appsettings.json",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\appsettings.json",
+              "RelativeToolTip": "market-watch\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-23T10:41:19.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Program.cs",
+              "RelativeDocumentMoniker": "market-watch\\Program.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Program.cs",
+              "RelativeToolTip": "market-watch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T10:50:37.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AuditLogsService.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Services\\AuditLogsService.cs",
+              "RelativeDocumentMoniker": "market-watch\\Services\\AuditLogsService.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Services\\AuditLogsService.cs",
+              "RelativeToolTip": "market-watch\\Services\\AuditLogsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:43:58.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Market.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Market.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\Market.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Market.cs",
+              "RelativeToolTip": "market-watch\\Models\\Market.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:42:04.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Investor.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Investor.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\Investor.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\Investor.cs",
+              "RelativeToolTip": "market-watch\\Models\\Investor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:42:06.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MarketWatchTrainingContext.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Data\\MarketWatchTrainingContext.cs",
+              "RelativeDocumentMoniker": "market-watch\\Data\\MarketWatchTrainingContext.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Data\\MarketWatchTrainingContext.cs",
+              "RelativeToolTip": "market-watch\\Data\\MarketWatchTrainingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:41:01.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddCompaniesRequest.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\AddCompaniesRequest.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\AddCompaniesRequest.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\AddCompaniesRequest.cs",
+              "RelativeToolTip": "market-watch\\Models\\AddCompaniesRequest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T09:39:59.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "market-watch\\Controllers\\CompanyController.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "market-watch\\Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T09:34:30.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "market-watch\\Models\\AuditLog.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Models\\AuditLog.cs",
+              "RelativeToolTip": "market-watch\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T09:34:09.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AuditLogController.cs",
-              "DocumentMoniker": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AuditLogController.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AuditLogController.cs",
               "RelativeDocumentMoniker": "market-watch\\Controllers\\AuditLogController.cs",
-              "ToolTip": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AuditLogController.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AuditLogController.cs",
               "RelativeToolTip": "market-watch\\Controllers\\AuditLogController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowB4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T09:30:07.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T09:30:07.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "RegisterController.cs",
-              "DocumentMoniker": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\RegisterController.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "market-watch\\Controllers\\RegisterController.cs",
-              "ToolTip": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\RegisterController.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\RegisterController.cs",
               "RelativeToolTip": "market-watch\\Controllers\\RegisterController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAcwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T08:58:50.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T08:58:50.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "market-watch\\Services\\JwtService.cs",
-              "ToolTip": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Services\\JwtService.cs",
-              "RelativeToolTip": "market-watch\\Services\\JwtService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T08:58:37.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "AddCompaniesRequestController.cs",
-              "DocumentMoniker": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AddCompaniesRequestController.cs",
+              "DocumentMoniker": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AddCompaniesRequestController.cs",
               "RelativeDocumentMoniker": "market-watch\\Controllers\\AddCompaniesRequestController.cs",
-              "ToolTip": "E:\\Programming\\InternSheps\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AddCompaniesRequestController.cs",
+              "ToolTip": "E:\\Programming\\InternShips - Current or Completed\\FRA 2026\\Projs\\Market Watch project\\Backend .net\\market-watch-backend\\market-watch\\Controllers\\AddCompaniesRequestController.cs",
               "RelativeToolTip": "market-watch\\Controllers\\AddCompaniesRequestController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T08:51:35.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T08:51:35.429Z"
             }
           ]
         }

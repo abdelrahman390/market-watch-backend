@@ -23,6 +23,17 @@ namespace market_watch.Controllers
         }
 
         [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult GetCompanyRequests()
+        {
+            var requests = _dbContext.AddCompaniesRequests
+                .Where(r => r.Status == "Pending")
+                .ToList();
+
+            return Ok(requests);
+        }
+
+        [Authorize(Roles = "Admin")]
         [HttpPost("approveCompanyRequist")]
         public IActionResult approveCompanyRequist(int RequistId)
         {
